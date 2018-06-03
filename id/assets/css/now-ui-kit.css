@@ -1695,6 +1695,34 @@ fieldset[disabled] .btn-primary.active {
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
 }
 
+
+.btn-giat-border {
+    background-color: #fff8e8;
+    color: #FFC122;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.btn-giat-border:hover,
+.btn-giat-border:focus,
+.btn-giat-border:active,
+.btn-giat-border.active,
+.btn-giat-border:active:focus,
+.btn-giat-border:active:hover,
+.btn-giat-border.active:focus,
+.btn-giat-border.active:hover,
+.show>.btn-giat-border.dropdown-toggle,
+.show>.btn-giat-border.dropdown-toggle:focus,
+.show>.btn-giat-border.dropdown-toggle:hover {
+    background-color: #664d0d;
+    color: #FFFFFF;
+    box-shadow: none;
+}
+
+.btn-giat-border:hover {
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);
+}
+
 .btn-success {
     background-color: #18ce0f;
     color: #FFFFFF;
@@ -2287,6 +2315,28 @@ fieldset[disabled] .btn-link.active {
     top: 50%;
     margin-top: -1px;
     right: 8px;
+}
+
+.disabled-giat {
+   pointer-events: none;
+   cursor: default;
+}
+
+.float-giat{
+    position: fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25D366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+}
+
+.my-float-giat{
+    margin-top:22px;
 }
 
 .form-control::-moz-placeholder {
@@ -3396,6 +3446,15 @@ body {
 
 .separator.separator-primary {
     background-color: #f96332;
+}
+
+.separator-giat {
+    background: #FFC122;
+    padding: 5px;
+    border-radius: 90%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
 }
 
 .nav-pills .nav-item .nav-link {
@@ -7667,6 +7726,9 @@ Plans and pricing CSS =========
 }
 .pricingTable-firstTable_table:not(:last-of-type) {
   margin-right: 3.5%;
+}
+#portofolio .pricingTable-firstTable_table:not(:last-of-type) {
+  margin-right: 3%;
 }
 @media screen and (max-width: 767px) {
   .pricingTable-firstTable_table:not(:last-of-type) {
