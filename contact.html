@@ -18,6 +18,8 @@
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="assets/css/demo.css" rel="stylesheet" />
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/f4d8c0356047c1b75a86d190a/fa226b58e9ad59a82bf8e9eb6.js");</script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/space10-community/conversational-form@0.9.83/dist/conversational-form.min.js" crossorigin></script>
+
 </head>
 
 <body class="landing-page sidebar-collapse">
@@ -77,12 +79,18 @@
                 <p class="description">Describe your graphic design here!</p>
                 <div class="row">
                     <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
-                        <form method="POST" action="https://formspree.io/akun.mundzir@gmail.com">
+                        <form method="POST" action="https://formspree.io/akun.mundzir@gmail.com" cf-form>
                             <div class="input-group input-lg">
                                 <span class="input-group-addon">
                                     <i class="now-ui-icons users_circle-08"></i>
                                 </span>
-                                <input type="text" name="nama" class="form-control" placeholder="Name...">
+                                <input type="text" name="name" class="form-control" placeholder="Name...">
+                            </div>
+                            <div class="input-group input-lg">
+                                <span class="input-group-addon">
+                                    <i class="now-ui-icons users_circle-08"></i>
+                                </span>
+                                <input type="text" name="company" class="form-control" placeholder="Company...">
                             </div>
                             <div class="input-group input-lg">
                                 <span class="input-group-addon">
